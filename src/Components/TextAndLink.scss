@@ -1,0 +1,26 @@
+.TextAndLink {
+    width: 100%;
+    display: flex;
+    justify-content : flex-end;
+    align-items: center;
+    cursor: pointer;
+
+    a {
+        color: #737380;
+        font-family: 'Roboto';
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    span {
+        color: #5986F9;
+        font-family: 'Roboto';
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: underline;
+    }
+}
