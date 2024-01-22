@@ -1,0 +1,32 @@
+#Logo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 0.5rem;
+
+    h1 {
+        color: #000;
+        font-family: 'Poppins';
+        font-size: 1.59156rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    span {
+        font-family: 'Poppins';
+        font-size: 1.59156rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        background: linear-gradient(103deg, #0788FF 11.08%, #5AD6FD 90.12%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    svg {
+        position: absolute;
+        transform: translate(2.8rem, 0.4rem);
+    }
+}

@@ -1,16 +1,13 @@
-import './App.css'
-import { NextUIProvider } from "@nextui-org/system";
-
+import './App.scss'
+import Auth from './Auth/Auth'
 
 function App() {
 
-  return (
-    <NextUIProvider>
-      <>
-
-      </>
-    </NextUIProvider>
-  )
+	return (
+		<>
+			<Auth />
+		</>
+	)
 }
 
 export default App

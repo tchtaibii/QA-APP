@@ -6,6 +6,13 @@ export default {
   ],
   theme: {
     extend: {},
+    container: {
+      display : 'flex',
+      flexDirection : 'column',
+      width : '100vw',
+      marginInline : 'auto',
+      minHeight : '100vh',
+    },
   },
   plugins: [],
 }

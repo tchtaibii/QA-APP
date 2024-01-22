@@ -1,0 +1,25 @@
+.ButtonForm {
+    display: flex;
+    width: 20rem;
+    height: 3.125rem;
+    padding: 0.8125rem 7.25rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    background: #0788FF;
+    color: #FEFEFE;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+    outline: none;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    &:hover{
+        background: #349dff;
+    }
+}
