@@ -34,7 +34,6 @@ function Auth() {
                     <Route path="/signup" element={<Signup />} />
                     <Route path="/forget-password" element={<ForgetPassword />} />
                 </Routes>
-
             </div>
         </main>
     )
